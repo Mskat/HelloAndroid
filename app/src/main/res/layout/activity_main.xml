@@ -15,58 +15,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Udacity"
-        android:layout_above="@+id/udacity"
-        android:textSize="40sp"
+        android:layout_above="@+id/www"
+        android:textSize="35sp"
         android:textColor="#332830"
-        android:textStyle="italic"
+        android:fontFamily="casual"
         android:paddingLeft="5dp"/>
 
     <TextView
-        android:id="@+id/udacity"
+        android:id="@+id/www"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="www.udacity.com"
-        android:layout_alignParentBottom="true"
-        android:textSize="17sp"
+        android:layout_above="@+id/phone"
+        android:textSize="18sp"
         android:textColor="#332830"
-        android:textStyle="italic"
+        android:fontFamily="casual"
         android:paddingLeft="5dp"
         android:paddingBottom="5dp" />
 
     <TextView
+        android:id="@+id/adress_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2465 Latham St"
-        android:layout_alignParentRight="true"
         android:layout_above="@+id/adress"
-        android:textSize="15sp"
+        android:textSize="18dp"
+        android:fontFamily="casual"
         android:textColor="#332830"
-        android:textStyle="italic"
-        android:paddingRight="5dp" />
+        android:paddingLeft="5dp" />
 
     <TextView
         android:id="@+id/adress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mountain View, CA 94043"
-        android:layout_alignParentRight="true"
-        android:layout_above="@+id/phone"
-        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:fontFamily="casual"
         android:textColor="#332830"
-        android:textStyle="italic"
-        android:paddingRight="5dp" />
+        android:paddingLeft="5dp"/>
 
     <TextView
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="650-555-5555"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:textSize="15sp"
+        android:layout_above="@+id/adress_2"
+        android:textSize="18sp"
+        android:fontFamily="casual"
         android:textColor="#332830"
-        android:textStyle="italic"
-        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
         android:paddingBottom="5dp"/>
 
 </RelativeLayout>

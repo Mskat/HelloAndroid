@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mskat.helloandroid.MainActivity">
+    tools:context="com.example.mskat.helloandroid.MainActivity"
+    tools:ignore="RtlSymmetry" >
 
     <ImageView
         android:id="@+id/image"
@@ -15,53 +16,54 @@
         android:id="@+id/udacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Udacity"
+        android:text="@string/udacity"
         android:fontFamily="casual"
         android:textColor="@android:color/black"
-        android:textSize="35dp"
-        android:paddingLeft="5dp"/>
+        android:textSize="35sp"
+        android:paddingStart="5dp" />
 
     <TextView
         android:id="@+id/udacity_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="www.udacity.com"
+        android:text="@string/www_udacity_com"
         android:fontFamily="casual"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:paddingLeft="5dp"
-        android:layout_below="@+id/udacity" />
+        android:paddingStart="5dp"
+        android:layout_below="@+id/udacity"
+        android:autoLink="web" />
 
     <TextView
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="650-555-5555"
+        android:text="@string/_650_555_5555"
         android:fontFamily="casual"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:layout_below="@+id/udacity_2" />
 
     <TextView
         android:id="@+id/adress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2465 Latham St"
+        android:text="@string/_2465_latham_st"
         android:fontFamily="casual"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:layout_below="@+id/phone" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mountain View, CA 94043"
+        android:text="@string/mountain_view_ca_94043"
         android:fontFamily="casual"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:layout_below="@+id/adress" />
 
 </RelativeLayout>

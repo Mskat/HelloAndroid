@@ -32,7 +32,8 @@
         android:textSize="18sp"
         android:paddingStart="5dp"
         android:layout_below="@+id/udacity"
-        android:autoLink="web" />
+        android:autoLink="web"
+        android:textColorLink="@android:color/black" />
 
     <TextView
         android:id="@+id/phone"
